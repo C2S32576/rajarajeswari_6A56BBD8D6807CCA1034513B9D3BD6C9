@@ -17,7 +17,7 @@ class BankAccount:
       print("Invalid withdrawal or insufficient balance.")
   def display_balance(self):
     print("Account balance for {} (Account #{}) : ₹{}.".format(self.__account_holder_name,self.__account_number,self.__account_balance))
-account=BankAccount(account_number="123456789",account_holder_name="Madhumitha",initial_balance=0.0)
+account=BankAccount(account_number="123456789",account_holder_name="Rajareswari",initial_balance=0.0)
 account.display_balance()
 account.deposit(1000.0)
 account.withdraw(100.0)
